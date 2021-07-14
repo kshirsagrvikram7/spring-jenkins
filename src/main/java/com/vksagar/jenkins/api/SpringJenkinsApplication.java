@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringJenkinsApplication {
 	
-	static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
+	private static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	
 	@PostConstruct
 	public void init() {
